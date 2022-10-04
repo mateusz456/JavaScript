@@ -1,0 +1,49 @@
+<h1> Zad3 <h1>
+<textarea cols=60 rows=55>
+<html>
+<head>
+  <title> Zad3 </title> 
+  <script language="JavaScript">
+  function okno_zamknij_wit()
+    {
+      window.close();
+    }
+  </script>
+  </head>
+  <body>
+  <h1> Teoria <h1>
+    <p> Rodzaje okienek: </p>
+    <ul>
+      <li> Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, </li> 
+      <li> Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu. </li> 
+    <li> Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm). </li>
+    </ul>
+    <p> Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</p>
+ 1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez polskich znaków), cyfry oraz "$" i "_".
+    <p> Poprawne nazwy zmiennych: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz</p>
+<p> Błędne nazwy zmiennych: 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz, wysokość, imie+nazwisko.</p>
+    <p> 2. Wielkość liter ma znaczenie. </p>
+<p> Rekord i rekord to dwie różne zmienne! Jest to bardzo częsta przyczyna błędów w kodzie początkujących programistów.</p>
+   <p> 3. Należy nie używać słów kluczowych JavaScript jako nazw zmiennych.</p>
+    <h2> Typy zmiennych w Javascript <h2>
+<p> W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy zmiennych są definiowane w trakcie ich przypisywania. </p>
+      <p> Podstawowe zmienne liczbowe w JavaScript to: </p>
+        <ul>
+      <li> Number - Typ liczbowy zmienna całkowite zmiennoprzecinkowe </li>
+      <li> String - Typ tekstowy  </li>
+      <li> Boolea - Typ logiczny  </li>
+      <li> Null - Pusta zawartość  </li>
+      <li> Undefined - Typ niezidentyfikowany </li>
+      <li> Object - Obiekt </li>
+      <li> Konwersji zmiennych. </li>
+     </ul>
+<p> Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia. </p>
+      <ol>
+      <li> parseFloat(zmienna) - konwersja zmiennej do typu float </li>
+      <li> parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego) </li>
+      <li> toString(zmienna) - konwersja zmiennej do typu łańcuchowego </li>
+        </ol>
+<input type="button" value="zamknij okno" onclick="okno_zamknij_wit()"/>
+    </body>
+    </html>
+    </textarea>
