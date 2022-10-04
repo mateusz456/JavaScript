@@ -10,11 +10,12 @@
   </head>
   <body>
   <h1> Teoria <h1>
-  <p> Rodzaje okienek: Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, </p> 
-  <p> zwracaną następnie do programu. Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm).</p>
+  <p> Rodzaje okienek: 
+    <li> Okienko alert – wyświetlająca okienko dialogowe z informacją i przyciskiem OK, 
+      <li> Okienko prompt – generująca okno, w którym użytkownik może wpisać wartość, zwracaną następnie do programu. 
+        <li> Okienko confirm służy do tego, aby użytkownik coś potwierdził (stąd nazwa confirm).
     <p> Przy nadawaniu nazw zmiennym należy przestrzegać pewnych zasad:</p>
-<p> 1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez polskich znaków), cyfry oraz "$" i "_".
-    9</p>
+<li> 1. Nazwa zmiennej musi się zaczynać od litery, znaku "$" lub "_", może zawierać tylko litery (bez polskich znaków), cyfry oraz "$" i "_".
     <p> Poprawne nazwy zmiennych: zmienna1, $wynik, _rozmiar, wynik1, Rekord, $_gracz</p>
 <p> Błędne nazwy zmiennych: 1zmienna, wynik gry, wysokosc&szerokosc, wynik.rekord, &gracz, wysokość, imie+nazwisko.</p>
     <p> 2. Wielkość liter ma znaczenie. </p>
@@ -23,17 +24,21 @@
     <h2> Typy zmiennych w Javascript <h2>
 <p> W JavaScript nie ma możliwości definiowania różnych typów zmiennych tak jak w C++, typy zmiennych są definiowane w trakcie ich przypisywania. </p>
       <p> Podstawowe zmienne liczbowe w JavaScript to: </p>
-      <p> Number - Typ liczbowy zmienna całkowite zmiennoprzecinkowe </p>
-      <p> String - Typ tekstowy </p>
-      <p> Boolea - Typ logiczny </p>
-      <p> Null - Pusta zawartość </p>
-      <p> Undefined - Typ niezidentyfikowany </p>
-      <p> Object - Obiekt </p>
-      <p> Konwersji zmiennych. </p>
+        <ul>
+      <li> Number - Typ liczbowy zmienna całkowite zmiennoprzecinkowe </li>
+      <li> String - Typ tekstowy  </li>
+      <li> Boolea - Typ logiczny  </li>
+      <li> Null - Pusta zawartość  </li>
+      <li> Undefined - Typ niezidentyfikowany </li>
+      <li> Object - Obiekt </li>
+      <li> Konwersji zmiennych. </li>
+     </ul>
 <p> Wczytanie zmiennej z użyciem prompt wykonywane jest jako ciąg znaków dlatego konieczna jest konwersji z ciągu znaków na wartości liczbowe aby wykonywac obliczenia. </p>
-      <p> parseFloat(zmienna) - konwersja zmiennej do typu float </p>
-      <p> parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego) </p>
-      <p> toString(zmienna) - konwersja zmiennej do typu łańcuchowego </p>
+      <ol>
+      <li> parseFloat(zmienna) - konwersja zmiennej do typu float </li>
+      <li> parseInt(zmienna) - konwersja zmiennej do typu int (liczbowego) </li>
+      <li> toString(zmienna) - konwersja zmiennej do typu łańcuchowego </li>
+        </ol>
 <input type="button" name="zamknij okno" onclick="okno_zamknij_wit()"/>
     </body>
     </html>
