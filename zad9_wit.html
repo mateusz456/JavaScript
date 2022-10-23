@@ -1,0 +1,20 @@
+<html>
+<body>
+<div style="color:green;font-size:42px;">
+<script language="JavaScript">
+var liczba1=prompt("dzien 1=","");
+var liczba2=prompt("dzien 2=","");
+var liczba3=prompt("godzina 1=","");
+var liczba4=prompt("godzina 2=","");
+var ile_sekund_wit;
+var D1_wit=parseFloat(liczba1);
+var D2_wit=parseFloat(liczba2);
+var G1_wit=parseFloat(liczba3);
+var G2_wit=parseFloat(liczba4);
+suma=(D1_wit-D2_wit)*24*3600;
+suma2=suma-((24-G1_wit)*3600)+((24-G2_wit)*3600)
+document.write("ile sekund minelo= "+D1_wit+" godzina "+G1_wit+"  i "+D2_wit+" godzina "+G2_wit+" = "+suma2+"<br>");
+</script>
+</div>
+</body>
+</html>
