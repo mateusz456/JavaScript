@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="utf-8">
-<title> Przykład użycia pętli </title>
-<script language="JavaScript">
-for ( var i=1; i<=(b_wit-2); i++)
-{
-var wiersz_wit="*";
-for ( var j=1; i<=(a_wit-2); i++)
-{
-wiersz_wit=wiersz_wit+"&nbsp&nbsp";
-}
-wiersz_wit=wiersz_wit+"*";
-document.write(wiersz_wit+"<br>");
-}
-for ( var i=1; i<=a_wit; i++)
-{
-       document.write("*");
-}
-document.write("<br>");
-</script>
+ <meta charset="utf-8">
+ <title>Przykład użycia pętli</title>
+ <script language="JavaScript">
+var x=prompt("podaj wysokosc a=","");
+var a_wit=x;
+var y=prompt("podaj szerokosc b=","");
+var b_wit=y;
+ for ( var i=1; i<=b_tub; i++)
+ {
+ document.write("*");
+ }
+
+ document.write("<br>");
+    var wiersz_wit="*";
+    for ( var j=1; j<=(b_wit-2); j++)
+ {
+    wiersz_wit=wiersz_wit+"&nbsp&nbsp";
+ }
+ wiersz_wit=wiersz_wit+"*";
+ for ( var j=1; j<=(a_wit-2); j++)
+ {
+ document.write(wiersz_wit);
+ document.write("<br>");
+ }
+
+ for ( var i=1; i<=b_wit; i++)
+ {
+ document.write("*");
+ }
+ </script>
 </head>
 <body>
 </body>
+</html>
