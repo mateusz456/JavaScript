@@ -1,0 +1,29 @@
+<html>
+<head>
+ <script language="JavaScript">
+function V(i){
+var i;
+
+
+if(i==1 || i.toLowerCase()=='czerwony')
+{
+document.write("<font size=7, color=red>Wybrałeś kolor czerwony</font><br>");
+}
+
+if(i==2 || i.toLowerCase()=='niebieski')
+{
+document.write("<font size=1, color=blue>Wybrałeś kolor niebieski</font><br>");
+}}
+
+</script>
+</head>
+<body>
+<font size=6, color=green>Menu </font><br>
+<font size=6, color=red>1 - Czerwony </font><br>
+<font size=6, color=blue>2 - Niebieski </font><br>
+<form name="formularz" action="..." onsubmit="V(this.kolor.value);return false">
+<input size="6" name="kolor">
+ <input TYPE="submit" Value="Sprawdz" >
+ </form>
+</body>
+</html>
