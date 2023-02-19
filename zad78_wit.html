@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+ <meta charset="utf-8">
+ <title>Zad78</title>
+ <script language="JavaScript">
+    var x=prompt("podaj 1 liczbe liczba1=","");
+var liczba1_wit=x;
+var y=prompt("podaj 2 liczbe liczba2=","");
+var liczba2_wit=y;
+
+
+
+if(liczba1_wit<liczba2_wit)
+{
+    document.write("Liczby nieparzyste:"+"<br>"); 
+    for(var i=liczba1_wit;i<=liczba2_wit;i++)
+{
+    if(i%2==1)
+{
+    document.write("<p style=\"font-size:50px; color: green;\"><br>"+i+"<br></p>");
+}
+}
+
+}
+if(liczba1_wit>liczba2_wit)
+{
+    document.write("Liczby nieparzyste:"+"<br>"); 
+    for(var i=liczba1_wit;i>=liczba2_wit;i--)
+{
+    if(i%2==1)
+{
+    document.write("<p style=\"font-size:25px;  color: blue;\"><br>"+i+"<br></p>");
+}
+}
+
+}
+ </script>
+</head>
+<body>
+</body>
+</html>
