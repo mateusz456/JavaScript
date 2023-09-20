@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: red;
+}
+</head>
+<body>
+div {
+  background-color: white;
+  inline-size: 70%;
+  border-block-width: 10px;
+}
+
+#example1 {
+  border-block-style: dashed dotted;
+  border-block-color: white;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h2>Michał Probierz nowym selekcjonerem reprezentacji Polski</h2>
+<div id="example1">
+  <p> Cezary Kulesza ogłosił nowego selekcjonera reprezentacji Polski - będzie nim trener reprezentacji Polski U-21 Michał Probierz</p>
+  </div>
+  <td>
+  <img src="pro.jpg" ALIGN=left BORDER=0.5 WIDTH=500 HEIGHT=300>
+  </td>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
